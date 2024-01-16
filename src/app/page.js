@@ -23,13 +23,12 @@ export default function Home() {
           </div>
           <div className=" w-1/2 flex flex-col items-center ">
             <AnimatedText
-              text="Mastering the Web: Full Stack, Full Passion."
+              text="Mastering the Development: Full Stack, Full Passion."
               className=" !text-6xl !text-left"
             />
             <p className=" my-4 text-base font-medium ">
               I'm a developer who approaches every endeavor with unwavering
-              dedication and passion. I believe that a tireless work ethic,
-              combined with a sharp mind, can propel anyone to new heights.
+              dedication and passion. I am committed to leaving an indelible mark on every project I undertake.
             </p>
             <div className=" flex items-center self-start mt-2 ">
               <Link href="/DheerajKumarResume.pdf" target="_blank"

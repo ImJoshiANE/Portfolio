@@ -9,13 +9,12 @@ import { TwitterIcon, GithubIcon, LinkedInIcon, LeetcodeIcon } from "./Icons";
 const CustomLink = ({ href, title, className = "" }) => {
   // usePathname to get the current path and to highlight that link
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
       <span
-        className={`inline-block h-[1px] bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
+        className={`inline-block h-[1px] bg-dark absolute left-0 -bottom-1 group-hover:w-full transition-[width] ease duration-300 ${
           pathname === href ? "w-full" : "w-0"
         }`}
       ></span>

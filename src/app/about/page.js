@@ -1,8 +1,9 @@
 import AnimatedText from "@/Components/AnimatedText";
 import Image from "next/image";
-import profileImg from "../../../public/images/profileimages/Dheeraj-Image2.jpg";
+import profileImg from "../../../public/images/profileimages/Dheeraj-Image2.png";
 import Skills from "@/Components/Skills";
 import Experience from "@/Components/Experience";
+import Education from "@/Components/Education";
 
 const About = () => {
   return (
@@ -17,24 +18,15 @@ const About = () => {
               Biography
             </h2>
             <p className=" font-medium ">
-              Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-              passion for creating beautiful, functional, and user-centered
-              digital experiences. With 4 years of experience in the field. I am
-              always looking for new and innovative ways to bring my clients'
-              visions to life.
+              Hi, I'm <span className="font-bold">Dheeraj Kumar</span>, a web developer and Compititive Programmer. Instead of biography I'm writing dummy lorem ipsum text here.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <p className=" font-medium my-4">
-              I believe that design is about more than just making things look
-              pretty – it's about solving problems and creating intuitive,
-              enjoyable experiences for users.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique faucibus placerat. Quisque scelerisque dignissim magna, sed aliquet enim.
             </p>
 
             <p className=" font-medium ">
-              Whether I'm working on a website, mobile app, or other digital
-              product, I bring my commitment to design excellence and
-              user-centered thinking to every project I work on. I look forward
-              to the opportunity to bring my skills and passion to your next
-              project.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique faucibus placerat.
             </p>
           </div>
           <div className=" col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 ">
@@ -67,6 +59,7 @@ const About = () => {
 
         <Skills/>
         <Experience/>
+        <Education/>
       </div>
     </main>
   );
