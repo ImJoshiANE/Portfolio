@@ -24,8 +24,8 @@ const About = () => {
                 Biography
               </h2>
               <p className=" font-medium ">
-                Hi, I'm <span className="font-bold">Dheeraj Kumar</span>, a web
-                developer and Compititive Programmer. Instead of biography I'm
+                Hi, I&lsquo;m <span className="font-bold">Dheeraj Kumar</span>, a web
+                developer and Compititive Programmer. Instead of biography I&lsquo;m
                 writing dummy lorem ipsum text here. Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna aliqua.
