@@ -1,7 +1,11 @@
 import AnimatedText from "@/Components/AnimatedText";
 import { GithubIcon } from "@/Components/Icons";
 import Image from "next/image";
-import OpinifyImg from "../../../public/images/projectimages/Opinify.png";
+import OpinifyImg from "../../../public/images/projectimages/Opinify.jpg";
+import InfotrekImg from "../../../public/images/projectimages/Infotrek.png";
+import EazyCartImg from "../../../public/images/projectimages/eazyCart.png";
+import VisualSortImg from "../../../public/images/projectimages/VisualSort.png";
+import ScholarStatImg from "../../../public/images/projectimages/ScholarStat.jpg";
 import TransitionEffect from "@/Components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -119,44 +123,44 @@ const Projects = () => {
                 title="Opinify: Speak. Share. Connect."
                 summary="Opinify is your platform to voice your thoughts, share your ideas, and connect with a diverse community. Speak freely, share your unique perspective, and foster meaningful connections through vibrant discussions. Dynamic space where opinions thrive."
                 img={OpinifyImg}
-                link="https://github.com/ImJoshiANE"
-                github="https://github.com/ImJoshiANE"
+                link="https://github.com/ImJoshiANE/Opinify"
+                github="https://github.com/ImJoshiANE/Opinify"
               />
             </div>
             <div className=" col-span-6 md:col-span-12 ">
               <Project
-                type="Featured Project"
-                title="Opinify: Speak. Share. Connect."
-                img={OpinifyImg}
-                link="https://github.com/ImJoshiANE"
-                github="https://github.com/ImJoshiANE"
+                type="Full Stack"
+                title="Infotrek: Event Management WebApp."
+                img={InfotrekImg}
+                link="https://infotrek23.netlify.app/"
+                github="https://github.com/ImJoshiANE/INFOTREK23-FRONTEND"
               />
             </div>
             <div className=" col-span-6 md:col-span-12 ">
               <Project
-                type="Featured Project"
-                title="Opinify: Speak. Share. Connect."
-                img={OpinifyImg}
-                link="https://github.com/ImJoshiANE"
-                github="https://github.com/ImJoshiANE"
+                type="Full Stack"
+                title="eazyCart: eCommerce platform."
+                img={EazyCartImg}
+                link="https://eazycart.netlify.app/"
+                github="https://github.com/ImJoshiANE/eazyCart"
               />
             </div>
             <div className=" col-span-6 md:col-span-12 ">
               <Project
-                type="Featured Project"
-                title="Opinify: Speak. Share. Connect."
-                img={OpinifyImg}
-                link="https://github.com/ImJoshiANE"
-                github="https://github.com/ImJoshiANE"
+                type="Web Scraping"
+                title="ScholarStat : Scraping and analysis tool."
+                img={ScholarStatImg}
+                link="https://github.com/ImJoshiANE/ScholarStat"
+                github="https://github.com/ImJoshiANE/ScholarStat"
               />
             </div>
             <div className=" col-span-6 md:col-span-12 ">
               <Project
-                type="Featured Project"
-                title="Opinify: Speak. Share. Connect."
-                img={OpinifyImg}
-                link="https://github.com/ImJoshiANE"
-                github="https://github.com/ImJoshiANE"
+                type="Frontend/Algorithms"
+                title="VisualSort : Algorithm Visualizer"
+                img={VisualSortImg}
+                link="https://imjoshiane.github.io/VisualSort/"
+                github="https://github.com/ImJoshiANE/VisualSort"
               />
             </div>
           </div>

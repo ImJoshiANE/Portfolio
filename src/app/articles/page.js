@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { easeInOut, motion, useMotionValue } from "framer-motion";
 import Image from "next/image";
 import AnimatedText from "@/Components/AnimatedText";
-import featuredImg1 from "../../../public/images/articleImages/FeaturedArticle.png";
+import DeltaFourImg from "../../../public/images/articleImages/DeltaFour.jpg";
 import TransitionEffect from "@/Components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -105,7 +105,7 @@ const Articles = () => {
             text="Words Can Change The World!"
             className="mb-16 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl "
           />
-          <ul className=" grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16 ">
+          {/* <ul className=" grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16 ">
             <FeaturedArticle
               img={featuredImg1}
               title="Learn how to build a custom pagination component in ReactJS from scratch."
@@ -120,7 +120,7 @@ const Articles = () => {
               time="9 min read"
               link="/"
             />
-          </ul>
+          </ul> */}
 
           {/* Noramal Articles */}
           <h2 className=" font-bold text-4xl my-16 w-full text-center mt-32">
@@ -128,6 +128,12 @@ const Articles = () => {
           </h2>
           <ul>
             <Article
+              img={DeltaFourImg}
+              title="The Secret of Successful Startups -Kunal Shah’s Delta 4 Theory."
+              date="10 Feb, 2024"
+              link="https://imjoshiane.medium.com/the-secret-of-successful-startups-kunal-shahs-delta-4-theory-fb8e7aca0562"
+            />
+            {/* <Article
               img={featuredImg1}
               title="Learn how to build a custom pagination component in ReactJS from scratch."
               date="14 Jan, 2024"
@@ -150,13 +156,7 @@ const Articles = () => {
               title="Learn how to build a custom pagination component in ReactJS from scratch."
               date="14 Jan, 2024"
               link="/"
-            />
-            <Article
-              img={featuredImg1}
-              title="Learn how to build a custom pagination component in ReactJS from scratch."
-              date="14 Jan, 2024"
-              link="/"
-            />
+            /> */}
           </ul>
         </div>
       </main>
