@@ -10,6 +10,7 @@ import {
   LeetcodeIcon,
   SunIcon,
   MoonIcon,
+  CodeForcesIcon,
 } from "./Icons";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import { useState } from "react";
@@ -131,7 +132,7 @@ const Navbar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com/ImJoshiANE"
+            href="https://twitter.com/ImJoshiAE"
             target="_blank"
             className=" w-6 mx-3"
             whileHover={{
@@ -143,6 +144,21 @@ const Navbar = () => {
           >
             <TwitterIcon />
           </motion.a>
+
+          <motion.a
+            href="https://codeforces.com/profile/ANE"
+            target="_blank"
+            className=" w-6 mx-3"
+            whileHover={{
+              y: -2,
+            }}
+            whileTap={{
+              scale: 0.9,
+            }}
+          >
+            <CodeForcesIcon className={`dark:text-white`} />
+          </motion.a>
+
           <motion.a
             href="https://leetcode.com/ImJoshiANE/"
             target="_blank"

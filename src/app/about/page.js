@@ -23,24 +23,29 @@ const About = () => {
               <h2 className=" mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
                 Biography
               </h2>
-              <p className=" font-medium ">
-                Hi, I&lsquo;m <span className="font-bold">Dheeraj Kumar</span>, a web
-                developer and Compititive Programmer. Instead of biography I&lsquo;m
-                writing dummy lorem ipsum text here. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
+              <p className=" font-medium mb-2">
+                Hello!, I&lsquo;m{" "}
+                <span className="font-bold">Dheeraj Kumar</span>, a passionate
+                and dedicated Software Engineer with a strong background in
+                computer science and competitive programming. Currently,
+                I'm pursuing my Master of Computer Applications at the National
+                Institute of Technology, Trichy.
               </p>
-              <p className=" font-medium my-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                tristique faucibus placerat. Quisque scelerisque dignissim
-                magna, sed aliquet enim.
+
+              <p className="font-medium mb-2">
+                Throughout my academic journey, I have achieved notable
+                milestones, such as being rated as an Expert on Codeforces and a
+                Knight on LeetCode. I have also secured top positions in various
+                competitive programming contests and hackathons, showcasing my
+                problem-solving skills and teamwork capabilities.
               </p>
 
               <p className=" font-medium ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                tristique faucibus placerat.
+                My experience includes working as a Web Master and
+                Problem Setter for ACM, NIT Trichy. I am constantly exploring new technologies and
+                striving to contribute to innovative projects. Please feel free
+                to explore my portfolio and reach out to me through the provided
+                links.
               </p>
             </div>
 
