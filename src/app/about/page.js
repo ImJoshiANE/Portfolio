@@ -28,7 +28,7 @@ const About = () => {
                 <span className="font-bold">Dheeraj Kumar</span>, a passionate
                 and dedicated Software Engineer with a strong background in
                 computer science and competitive programming. Currently,
-                I'm pursuing my Master of Computer Applications at the National
+                I am pursuing my Master of Computer Applications at the National
                 Institute of Technology, Trichy.
               </p>
 
