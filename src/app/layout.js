@@ -18,6 +18,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+          {/* Smartlook Script */}
+          <script
+              type="text/javascript"
+              dangerouslySetInnerHTML={{
+                  __html: `
+                      window.smartlook||(function(d) {
+                          var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+                          var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+                          c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
+                      })(document);
+                      smartlook('init', '514bcb3261023513546abf663eecf8d30c1347c8', { region: 'eu' });
+                  `,
+              }}
+          />
+
           {/* Microsoft Clarity Script */}
           <script
               type="text/javascript"
@@ -31,6 +46,22 @@ export default function RootLayout({ children }) {
                   `,
               }}
           />
+
+          {/* Mouseflow Script */}
+          <script
+                type="text/javascript"
+                dangerouslySetInnerHTML={{
+                    __html: `
+                        window._mfq = window._mfq || [];
+                        (function() {
+                            var mf = document.createElement("script");
+                            mf.type = "text/javascript"; mf.defer = true;
+                            mf.src = "//cdn.mouseflow.com/projects/3a842bcd-cd89-40fb-a142-2b24ac419e54.js";
+                            document.getElementsByTagName("head")[0].appendChild(mf);
+                        })();
+                    `,
+                }}
+            />
       </Head>
       <body
         className={`${montserrat.variable} font-sans bg-light dark:bg-dark w-full min-h-screen`}
