@@ -1,6 +1,7 @@
 import Footer from "@/Components/Footer";
 import Navbar from "@/Components/Navbar";
 import Head from 'next/head';
+import Script from 'next/script';
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
@@ -19,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
           {/* Smartlook Script */}
-          <script
+          <Script
               type="text/javascript"
               dangerouslySetInnerHTML={{
                   __html: `
@@ -34,7 +35,7 @@ export default function RootLayout({ children }) {
           />
 
           {/* Microsoft Clarity Script */}
-          <script
+          <Script
               type="text/javascript"
               dangerouslySetInnerHTML={{
                   __html: `
@@ -48,7 +49,7 @@ export default function RootLayout({ children }) {
           />
 
           {/* Mouseflow Script */}
-          <script
+          <Script
                 type="text/javascript"
                 dangerouslySetInnerHTML={{
                     __html: `
