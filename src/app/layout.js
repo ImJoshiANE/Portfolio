@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
           `,
         }}
       />
+      
       <Script
         id="clarity-script"
         dangerouslySetInnerHTML={{
@@ -45,6 +46,23 @@ export default function RootLayout({ children }) {
                 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "pm0kpb2i4p");
+          `,
+        }}
+      />
+            <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-LTEJPMS858"
+      />
+      <Script
+        id="google-analytics-inline"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-LTEJPMS858');
           `,
         }}
       />
