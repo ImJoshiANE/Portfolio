@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my Portfolio website! This website showcases my projects, skills, and experiences to potential employers and collaborators.
+This is a Portfolio website! This website showcases projects, skills, and experiences to potential employers and collaborators.
 
 ## Technologies Used
 
@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 
 ## Deployment
 
-This website is deployed on [Vercel](https://vercel.com/) and is accessible at [https://imjoshiane.com/](https://imjoshiane.com/).
+This website is not deployed right now.
 
 ## Feedback and Contributions
 
